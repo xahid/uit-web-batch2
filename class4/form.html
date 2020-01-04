@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration Form</title>
+	</head>
+	<body>
+
+		<h1>Registration Form</h1>
+		<form action="form.html" method="post" enctype="multipart/form-data">
+			<table border="1" cellspacing="0" cellpadding="10">
+				<tr>
+					<td>Name</td>
+					<td><input type="text" name="txtname" placeholder="Type your Name"> </td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="email" name="txtemail"></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input type="password" name="txtpassword"></td>
+				</tr>
+				<tr>
+					<td>Gender</td>
+					<td>
+						<input type="radio" name="txtgender" value="Male">Male
+						<input type="radio" name="txtgender" value="Female">Female
+					</td>
+				</tr>
+				<tr>
+					<td>Skills</td>
+					<td>
+						<input type="checkbox" name="txtskills" value="HTML">HTML
+						<input type="checkbox" name="txtskills" value="CSS">CSS
+						<input type="checkbox" name="txtskills" value="JavaScript">JavaScript
+					</td>
+				</tr>
+
+				<tr>
+					<td>Upload Image</td>
+					<td><input type="file" name="txtfile"></td>
+				</tr>
+
+				<tr>
+					<td>Date of Birth</td>
+					<td><input type="date" name="txt_dob"></td>
+				</tr>
+				<tr>
+					<td>Favourit Color</td>
+					<td><input type="color" name="txt_color"></td>
+				</tr>
+				<tr>
+					<td>Country</td>
+					<td>
+						<select name="text_country">
+							<option value="">Select Here...</option>
+							<option value="PK">Pakistan</option>
+							<option value="SA">Saudi Arabia</option>
+							<option value="IR">Iran</option>
+							<option value="UAE">UAE</option>	
+						</select>
+					</td>
+				</tr>
+
+				<tr>
+					<td>Address</td>
+					<td>
+						<textarea cols="60" rows="3" name="text_addr" placeholder="Address"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td> 
+						<input type="reset" name="btn" value="Reset Form">
+						<input type="submit" name="btn" value="Register">
+					</td>
+				</tr>
+			</table>
+
+		</form>
+
+
+
+	</body>
+</html>
