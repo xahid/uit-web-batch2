@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 1250px;
+	margin: 0 auto;
+	border:1px solid #000;
+}
+.header{
+	height: 150px;
+	background-color: #ccc;
+}
+.nav{
+	height: 50px;
+	background-color: red;
+}
+.slider{
+	height: 350px;
+	background-color: pink;
+}
+.content{
+	height: 800px;
+	background-color: #ccc;
+}
+.footer{
+	height: 120px;
+	background-color: #333;
+}

@@ -1,0 +1,8 @@
+Major Section of Web Page
+1. Header [height : 120px  ~ 180px]
+2. Navigation [height : 40px  ~ 60px]
+3. Slider	[height : 300px  ~ 500px]
+4. Content  [height : Min 500px ~ Auto]
+5. Footer   [height : 120px  ~ 250px]
+
+Width of all sections 100%
