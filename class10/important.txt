@@ -1,0 +1,58 @@
+How to Add Favicon in Title bar
+================================
+
+1. Go to https://www.favicon.cc/
+
+2. Click import image button then click choose file button and then browse your logo image.
+
+3. Click upload button.
+
+4. then click Download Favicon button.
+
+5. and copy favicon.cc into your image folder.
+
+6. Following code type in the head section
+
+<link rel="shortcut icon" href="images/favicon.cc"/>
+
+
+ 
+How to add fonts
+==================
+
+1. Go to https://www.1001freefonts.com/
+
+2. Download any font (this font will .ttf/.otf format but you need five diffrent format for web)
+
+3. Go to http://www.font2web.com/ (for conversion font into five multiple format)
+
+4. upload your ttf/otf font file then download zip file
+
+5. Extract zip file and copy font folder into your web root directory.
+
+6. Read demo.html file then place some CSS code.
+
+
+
+Install Package Control in sublime text
+========================================
+1. Open Sublime Text 3
+2. press ctrl+shift+p
+3. Type, Install Package Control, press enter
+3. restart sublime
+4. Go to preference->package control->click install package>enter
+& Install following packages:
+a.DayRees color scheme (bg color theme)
+b.Emmet (Any file Open with sublime/ table>tr*5>td*2>input[type="text"]>ctrl+E)
+c.Bracket Highlighter (collapse tag / bracket)
+d.sidebar enhancements (file menu ->open folder->right clik any file in sidebar)
+e.sublime code intel (code intelligence and smart autocomplete)
+f. sublimelint (error highlighting)
+g. html5 
+h. css3
+
+
+
+
+
+
