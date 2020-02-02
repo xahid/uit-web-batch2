@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scal=1, maximum-scale=1">
+<style type="text/css">
+	.container{
+		width: 1250px;
+		margin: 0 auto;
+	}
+	.box{
+		height: 300px;
+		width: 25%;
+		float: left;
+	}
+	.clear{
+		clear: both;
+	}
+	.green{
+		background-color: green;
+	}
+	.blue{
+		background-color: blue;
+	}
+	.yellow{
+		background-color: yellow;
+	}
+	.red{
+		background-color: red;
+	}
+
+	@media (max-width: 990px){
+		.box{
+			width: 50%;
+		}
+	}
+
+	@media (max-width: 768px){
+		.box{
+			width: 100%;
+		}
+	}
+
+
+</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="box green"></div>
+		<div class="box red"></div>
+		<div class="box blue"></div>
+		<div class="box yellow"></div>
+		<div class="clear"></div>
+	</div>
+
+</body>
+</html>

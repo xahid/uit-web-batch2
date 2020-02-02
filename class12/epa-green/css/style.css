@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	box-sizing: border-box;
+}
+img, iframe{
+	max-width: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+@font-face{
+	font-family: 'prisma';
+	src: url('../fonts/Prisma.eot'), url('../fonts/Prisma.otf'), url('../fonts/Prisma.svg'), url('../fonts/Prisma.ttf'),  url('../fonts/Prisma.woff') ;
+}
+.primary-bg{
+	background-color: #4eba82;
+}
+.primary-color{
+	color: #4eba82;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+
+.container{
+	width: 1250px;
+	margin: 0 auto;
+}
+
+.border{
+	border: 1px solid #000;
+}
+
+.logo{
+	width: 25%;
+}
+.nav{
+	width: 75%;
+}
+
+.nav li{
+
+	display: inline;
+	line-height: 50px;
+
+}
+
+.nav li a{
+
+	color: #000;
+	padding: 15px 20px;
+}
+
+.slider{
+	background: url(../images/slider.jpg);
+	height: 450px; 
+	background-size: cover;
+	text-align: center; 
+}
+
+.slider h1{
+	font-family: 'prisma';
+	padding-top: 100px;
+	color: #fff;
+	font-size: 4em;
+	letter-spacing: 14px;
+}
+.slider p{
+	font-family: 'prisma';
+	color: #fff;
+	font-size: 3em;
+}
+
+.content{
+	background-color: #eae8e5;
+}
+
+.col-3{
+	width: 400px;
+}
+
+.col-3 img{
+	width: 400px;
+}
+
+.img-head{
+	padding: 10px;
+}
+.major-services{
+	margin-top:-50px; 
+}
+
+
+@media (max-width: 990px){
+	.nav{
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
