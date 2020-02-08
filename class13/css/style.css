@@ -3,7 +3,7 @@
 	padding: 0;
 }
 html{
-	box-sizing: border-box;
+	box-sizing: border-box !important;
 }
 img, iframe{
 	max-width: 100%;
@@ -31,10 +31,13 @@ a{
 .clear{
 	clear: both;
 }
-
 .container{
-	max-width: 1250px;
+	width: 1250px;
+	max-width: 100%;
 	margin: 0 auto;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 
 .border{
@@ -49,14 +52,12 @@ a{
 }
 
 .nav li{
-
 	display: inline;
 	line-height: 50px;
 
 }
 
 .nav li a{
-
 	color: #000;
 	padding: 15px 20px;
 }
@@ -81,9 +82,6 @@ a{
 	font-size: 3em;
 }
 
-.content{
-	background-color: #eae8e5;
-}
 
 .col-3{
 	width: 33%;
@@ -91,6 +89,9 @@ a{
 
 .col-3 img{
 	width: 100%;
+}
+.mr-1{
+	margin: 0 .5%;
 }
 
 .img-head{
@@ -100,18 +101,68 @@ a{
 	margin-top:-50px; 
 }
 
+.welcome{
+	text-align: center;
+	background-color: #efefef;
+	padding: 15px 0;
+}
+
+.col-4{
+	width: 25%;
+	padding: 0 .5%;
+	box-sizing: border-box;
+
+}
+
+.welcome h2{
+	text-transform: uppercase;
+	font-size: 2em;
+}
+.pt-5{ 
+	padding-top: 5px;
+}
+.pb-5{
+	padding-bottom: 5px;
+}
+.btn{
+		margin-top: 10px;
+}
+.btn a{
+	padding:5px 10px;
+	background-color: #000;
+	color: #fff;
+	border-radius: 4px; 
+}
+.current-topic{
+	padding: 20px 0;
+}
+.current-topic h2{
+
+	padding-bottom: 10px;
+}
+
 
 @media (max-width: 990px){
 	.nav{
 		display: none;
 	}
-		.col-3{
-	width: 100%;
-}
 }
 
+@media (max-width: 768px){
 
+	.col-3{
+		width: 100%;
+	}
 
+	.mr-1{
+		margin: 0;
+	}
+
+	.col-4{
+	width: 99%;
+	}
+
+}
 
 
 
