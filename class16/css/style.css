@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+img, video, iframe{
+	max-width: 100%;
+}
+
+.primary_bg{
+	background-color: #2A2A72;
+}
+.primary_text{
+	color: #2A2A72;
+}
+.secondary_bg{
+	background-color: #FFAA02;
+}
+.secondary_text{
+	color:#FFAA02;
+}
+.top_header{
+	background-color: #000;
+}
+.top_header p{
+	margin-top: 10px;
+}
+.nav-link{
+	color: #fff !important;
+}
+.nav-item{
+	padding: 0 15px;
+}
+
+.nav-link:hover{
+color:#FFAA02;
+}
+.promo_panel h3{
+	text-transform: uppercase;
+}
+.logo_section{
+	background-color: #fff;
+}
+
+.services, .team{
+	padding: 20px 0;
+	background-color: #FBF5F3 !important;
+}
+.testimonial{
+	background:url(../images/parallax.png) no-repeat fixed;
+	background-size: cover;
+	height: 500px;  
+}
+.testimonial .container{
+	text-align: center;
+	color: #fff;
+
+}
+.testimonial h2{
+	padding-top: 15%;
+	font-size: 42px;
+}
+.team .card{
+	background-color:transparent !important;
+	border:0; 
+}
+
+.highlights{
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.footer{
+	background-color: #050609;
+	color: #fff;
+	padding: 30px 0;
+
+}
+
+@media (max-width: 768px){
+	.top_header{
+		text-align: center !important;
+	}
+
+	.top_header .text-right{
+		text-align: center !important;
+	}
+
+}
