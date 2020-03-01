@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<div id="img1">
+		<img src="service1.png" alt="">
+	</div>
+
+	<div id="img2">
+		<img src="service2.png" alt="">
+	</div>
+
+	<div id="img3">
+		<img src="service3.png" alt="">
+	</div>
+
+	<button id="btn1">Image 1</button>
+	<button id="btn2">Image 2</button>
+	<button id="btn3">Image 3</button>
+	<script>
+		
+		$(document).ready(function(){
+			//$('#img1').hide();
+			$('#img2').hide();
+			$('#img3').hide();
+
+			$('#btn1').click(function(){
+				$('#img1').fadeIn(1000);
+				$('#img2').hide();
+				$('#img3').hide();
+			});
+			$('#btn2').click(function(){
+				$('#img2').fadeIn(1000);
+				$('#img1').hide();
+				$('#img3').hide();
+			});
+			$('#btn3').click(function(){
+				$('#img3').fadeIn(1000);
+				$('#img1').hide();
+				$('#img2').hide();
+			});
+
+		});
+	</script>
+
+</body>
+</html>
